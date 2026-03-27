@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar glass">
+        <div class="logo">WebDev</div>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html" data-lang="nav-home">Inicio</a>
+            <a href="portfolio.html" class="active" data-lang="nav-portfolio">Portafolio</a>
+            <a href="pricing.html" data-lang="nav-pricing">Precios</a>
+        </div>
+        <div class="nav-actions">
+            <button id="langToggle" class="btn-toggle">EN</button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-section">
+        <div class="section-header fade-in">
+            <h1 class="glow-text" data-lang="port-title">Nuestros Proyectos</h1>
+            <p data-lang="port-subtitle">Una muestra de los increíbles sitios web que hemos diseñado a la medida de las
+                necesidades únicas de nuestros clientes.</p>
+        </div>
+
+        <div class="grid portfolio-grid">
+            <!-- Project 1 -->
+            <a href="https://www.triadenergy.net/" target="_blank" class="card glass hover-lift reveal">
+                <div class="card-img-placeholder gradient-1"></div>
+                <div class="card-content">
+                    <h3>Triad Energy</h3>
+                    <p data-lang="proj-1-desc">Una empresa de consultoría local enfocada en la comunidad hispana. Tenían
+                        problemas para aceptar formularios de diversas fuentes. Creamos un sitio con un formulario
+                        unificado, reduciendo sus canales a uno.</p>
+                </div>
+            </a>
+
+            <!-- Project 2 -->
+            <a href="https://d18xgqt969fcb2.cloudfront.net/index.html" target="_blank"
+                class="card glass hover-lift reveal">
+                <div class="card-img-placeholder gradient-2"></div>
+                <div class="card-content">
+                    <h3>Cloud Skills Resume</h3>
+                    <p data-lang="proj-2-desc">Un sitio de portafolio que demuestra habilidades de ingeniería en la
+                        nube, con un contador de visitas en vivo usando un backend serverless de AWS.</p>
+                </div>
+            </a>
+
+            <!-- Project 3 -->
+            <a href="https://dreamy-gumdrop-8ebdf6.netlify.app/gallery" target="_blank"
+                class="card glass hover-lift reveal">
+                <div class="card-img-placeholder gradient-3"></div>
+                <div class="card-content">
+                    <h3>Bolivian Salon Gallery</h3>
+                    <p data-lang="proj-3-desc">Un sitio web elegante para un salón en Bolivia que incluye una conexión
+                        directa a WhatsApp, permitiendo a los clientes comunicarse al instante con la tienda.</p>
+                </div>
+            </a>
+
+            <!-- Project 4 -->
+            <a href="https://www.nexoserviciosbolivia.com/" target="_blank" class="card glass hover-lift reveal">
+                <div class="card-img-placeholder gradient-4"></div>
+                <div class="card-content">
+                    <h3>Nexo Servicios Bolivia</h3>
+                    <p data-lang="proj-4-desc">Una aplicación web moderna y totalmente responsiva, construida con
+                        estética premium. Destaca las mejores prácticas de diseño interactivo moderno.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
